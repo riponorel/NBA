@@ -68,7 +68,7 @@ def run_bot(data_account, recover=1):
 
         nama_modif = kw.replace(" ", "-")
         gmail = f"{nama_modif}-last@gmail.com"
-        slug = f"{kw}-nba-news"
+        slug = f"nba-news-{random_string(6)}"
         judul = f"{kw} Last Update"
         link = f"https://us.freeplayer.one/?title= CLICK HERE >> {kw}?ref=NBA"
 
